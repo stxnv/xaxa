@@ -1,3 +1,9 @@
+local uis = game:GetService("UserInputService")
+local run = game:GetService("RunService")
+if game:GetService("CoreGui"):FindFirstChild("Athena ui Remake") then
+	game:GetService("CoreGui"):FindFirstChild("Athena ui Remake"):Destroy()
+end
+
 local ret = {}
 local settings = {
 	blur = true;
